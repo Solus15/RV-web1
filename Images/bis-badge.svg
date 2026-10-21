@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="#09182a" stroke="#0284c7" stroke-width="5"/>
+  <polygon points="100,30 165,65 165,135 100,170 35,135 35,65" fill="none" stroke="#38bdf8" stroke-width="2"/>
+  <text x="100" y="88" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="900" text-anchor="middle">BIS</text>
+  <text x="100" y="112" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">IS 2026 / 1180</text>
+  <text x="100" y="130" fill="#f59e0b" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ISI STANDARD</text>
+  <text x="100" y="152" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" text-anchor="middle" letter-spacing="1">GOVT. APPROVED</text>
+</svg>

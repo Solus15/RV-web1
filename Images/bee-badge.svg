@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <circle cx="100" cy="100" r="92" fill="#0c241b" stroke="#eab308" stroke-width="5"/>
+  <g fill="#eab308">
+    <path d="M70 55 L74 65 L85 66 L77 73 L79 84 L70 78 L61 84 L63 73 L55 66 L66 65 Z"/>
+    <path d="M85 45 L89 55 L100 56 L92 63 L94 74 L85 68 L76 74 L78 63 L70 56 L81 55 Z"/>
+    <path d="M100 40 L104 50 L115 51 L107 58 L109 69 L100 63 L91 69 L93 58 L85 51 L96 50 Z"/>
+    <path d="M115 45 L119 55 L130 56 L122 63 L124 74 L115 68 L106 74 L108 63 L100 56 L111 55 Z"/>
+    <path d="M130 55 L134 65 L145 66 L137 73 L139 84 L130 78 L121 84 L123 73 L115 66 L126 65 Z"/>
+  </g>
+  <text x="100" y="112" fill="#facc15" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="900" text-anchor="middle">BEE 5-STAR</text>
+  <text x="100" y="132" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="bold" text-anchor="middle">MAX EFFICIENCY</text>
+  <text x="100" y="152" fill="#4ade80" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" text-anchor="middle" letter-spacing="1">MINIMUM LOSSES</text>
+</svg>

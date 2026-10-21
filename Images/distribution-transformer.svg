@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tankGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="50%" stop-color="#2a5280"/>
+      <stop offset="100%" stop-color="#0f2238"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4171a5"/>
+      <stop offset="100%" stop-color="#183656"/>
+    </linearGradient>
+    <linearGradient id="bushGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0066cc" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background Glow & Grid Platform -->
+  <rect width="800" height="600" fill="#0b1728" rx="20"/>
+  <circle cx="400" cy="300" r="280" fill="url(#glowGrad)"/>
+  
+  <!-- Base Skid / Foundation -->
+  <path d="M180 500 L620 500 L650 530 L150 530 Z" fill="#334155" filter="url(#shadow)"/>
+  <rect x="220" y="520" width="360" height="15" fill="#1e293b" rx="4"/>
+  <rect x="250" y="535" width="40" height="15" fill="#475569" rx="2"/>
+  <rect x="510" y="535" width="40" height="15" fill="#475569" rx="2"/>
+
+  <!-- Main Transformer Tank -->
+  <rect x="220" y="240" width="360" height="260" rx="12" fill="url(#tankGrad)" filter="url(#shadow)"/>
+  
+  <!-- Cooling Radiator Fins (Left) -->
+  <g fill="url(#finGrad)">
+    <rect x="150" y="270" width="16" height="200" rx="4"/>
+    <rect x="172" y="270" width="16" height="200" rx="4"/>
+    <rect x="194" y="270" width="16" height="200" rx="4"/>
+    <line x1="140" y1="285" x2="220" y2="285" stroke="#475569" stroke-width="8"/>
+    <line x1="140" y1="455" x2="220" y2="455" stroke="#475569" stroke-width="8"/>
+  </g>
+
+  <!-- Cooling Radiator Fins (Right) -->
+  <g fill="url(#finGrad)">
+    <rect x="590" y="270" width="16" height="200" rx="4"/>
+    <rect x="612" y="270" width="16" height="200" rx="4"/>
+    <rect x="634" y="270" width="16" height="200" rx="4"/>
+    <line x1="580" y1="285" x2="660" y2="285" stroke="#475569" stroke-width="8"/>
+    <line x1="580" y1="455" x2="660" y2="455" stroke="#475569" stroke-width="8"/>
+  </g>
+
+  <!-- Conservator Tank (Top) -->
+  <rect x="260" y="140" width="280" height="65" rx="32" fill="url(#tankGrad)" filter="url(#shadow)"/>
+  <circle cx="280" cy="172" r="14" fill="#38bdf8" opacity="0.8"/>
+  <!-- Connecting Pipe to Main Tank -->
+  <path d="M380 205 L380 240" stroke="#64748b" stroke-width="14" stroke-linecap="round"/>
+  <!-- Buchholz Relay -->
+  <rect x="368" y="210" width="24" height="20" rx="4" fill="#f59e0b"/>
+
+  <!-- High Voltage Bushings (Porcelain brown) -->
+  <!-- Left Bushing -->
+  <path d="M280 240 L290 170 L300 170 L310 240 Z" fill="url(#bushGrad)"/>
+  <ellipse cx="295" cy="170" rx="8" ry="4" fill="#fbbf24"/>
+  <line x1="295" y1="170" x2="295" y2="140" stroke="#f8fafc" stroke-width="4"/>
+  <circle cx="295" cy="140" r="5" fill="#38bdf8"/>
+
+  <!-- Center Bushing -->
+  <path d="M390 240 L400 160 L410 160 L420 240 Z" fill="url(#bushGrad)"/>
+  <ellipse cx="405" cy="160" rx="8" ry="4" fill="#fbbf24"/>
+  <line x1="405" y1="160" x2="405" y2="130" stroke="#f8fafc" stroke-width="4"/>
+  <circle cx="405" cy="130" r="5" fill="#38bdf8"/>
+
+  <!-- Right Bushing -->
+  <path d="M500 240 L510 170 L520 170 L530 240 Z" fill="url(#bushGrad)"/>
+  <ellipse cx="515" cy="170" rx="8" ry="4" fill="#fbbf24"/>
+  <line x1="515" y1="170" x2="515" y2="140" stroke="#f8fafc" stroke-width="4"/>
+  <circle cx="515" cy="140" r="5" fill="#38bdf8"/>
+
+  <!-- Silica Gel Breather -->
+  <path d="M540 172 L570 172 L570 260" fill="none" stroke="#64748b" stroke-width="6"/>
+  <rect x="560" y="260" width="20" height="40" rx="4" fill="#0284c7" opacity="0.85"/>
+
+  <!-- Front Nameplate & Rating Plate -->
+  <rect x="330" y="320" width="140" height="75" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="345" y1="335" x2="455" y2="335" stroke="#0f172a" stroke-width="4"/>
+  <line x1="345" y1="350" x2="430" y2="350" stroke="#475569" stroke-width="2"/>
+  <line x1="345" y1="362" x2="415" y2="362" stroke="#475569" stroke-width="2"/>
+  <line x1="345" y1="375" x2="440" y2="375" stroke="#475569" stroke-width="2"/>
+
+  <!-- Lifting Lugs -->
+  <circle cx="250" cy="260" r="10" fill="none" stroke="#94a3b8" stroke-width="5"/>
+  <circle cx="550" cy="260" r="10" fill="none" stroke="#94a3b8" stroke-width="5"/>
+
+  <!-- Grounding Terminal & Drain Valve -->
+  <circle cx="480" cy="460" r="14" fill="#cbd5e1" stroke="#475569" stroke-width="3"/>
+  <line x1="480" y1="460" x2="510" y2="460" stroke="#475569" stroke-width="6"/>
+
+  <!-- Energy Pulse Arcs (Animation effect) -->
+  <path d="M295 135 Q350 110 405 125" fill="none" stroke="#00d4ff" stroke-width="2" stroke-dasharray="6,6" opacity="0.8"/>
+  <path d="M405 125 Q460 100 515 135" fill="none" stroke="#00d4ff" stroke-width="2" stroke-dasharray="6,6" opacity="0.8"/>
+
+  <!-- Caption Badge -->
+  <rect x="250" y="425" width="300" height="35" rx="8" fill="#0369a1" opacity="0.9"/>
+  <text x="400" y="448" fill="#ffffff" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="1">11kV / 33kV DISTRIBUTION TRANSFORMER</text>
+</svg>
